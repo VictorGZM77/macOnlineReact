@@ -1,0 +1,78 @@
+.promo-banner {
+    background-color: #1a1a1a; 
+    color: white;
+    padding: 20px;
+    position: relative; /* Permite que los elementos secundarios se posicionen de forma absoluta */
+  }
+  
+  .promo-contenido {
+    display: flex; /* Alinea los elementos en una fila */
+    align-items: center;
+    max-width: 1200px; /* Limita el ancho del contenido promocional */
+    margin: 0 auto;
+  }
+  
+  .promo-izquierda {
+    flex: 1; /* Hace que el elemento se expanda para llenar el espacio disponible */
+  }
+  
+  .promo-imagen {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+    height: auto;
+  }
+  
+  .promo-derecha {
+    flex: 1; /* Hace que el elemento se expanda para llenar el espacio disponible */
+    padding-left: 40px; /* Añade un relleno a la izquierda del elemento */
+  }
+  
+  .promo-header {
+    display: flex; /* Alinea los elementos en una fila */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-bottom: 20px; /* Añade un margen inferior de 20px */
+  } 
+  
+  .promo-logo {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #ffd700;
+    margin-right: 10px; /* Añade un margen a la derecha del logo */
+  }
+  
+  .promo-titulo {
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  
+  .promo-m-titulo {
+    font-size: 36px; 
+    margin-bottom: 20px;
+  }
+  
+  .promo-descripcion {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .promo-boton {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .promo-exclusive {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .promo-slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+

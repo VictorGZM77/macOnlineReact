@@ -1,0 +1,51 @@
+.navbar {
+    display: flex; /*sirve para que los elementos se alineen en una fila*/
+    justify-content: space-between; /*Alinea los elementos a los extremos del contenedor*/
+    align-items: center; /*Centra los elementos verticalmente*/
+    background-color: #333; /*Color de fondo del navbar*/
+    padding: 1rem; /*Agrega un relleno interno al navbar*/ 
+    width: 100%; /*Ajusta el ancho del navbar al 100% del contenedor*/
+    color: white; 
+    position: fixed; /*Fija el navbar en la parte superior de la página*/ 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000; 
+}
+
+.navbar-izq .logo {
+    height: 50px; /* Ajusta la altura del logo según sea necesario */
+}
+
+.navbar-center .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-center .nav-links a {
+    color: white; /* Asegura que los enlaces también sean blancos */
+    text-decoration: none; /* Opcional: elimina el subrayado de los enlaces */
+}
+
+.navbar-der {
+    display: flex; /* Alinea los elementos a la derecha */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.busqueda {
+    padding: 0.5rem; /* Ajusta el relleno interno de la barra de búsqueda */
+    margin-right: 1rem; /* Ajusta el margen para mover el menú de búsqueda hacia la izquierda */
+}
+
+.icon-button {
+    background: none; /* Elimina el fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    margin-left: 0.1rem;
+}
+
+.icon-image {
+    height: 32px; 
+    width: 23px; 
+
+}
